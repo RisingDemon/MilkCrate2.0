@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Mulish:wght@200&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* The main Nav  */
+.mynav{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+/* Div inside the Main nav */
+.mydiv
+{
+    background-color:#EFFFFD;
+    height: 65px;
+ 
+}
+
+.colorWhite{
+    color: #009bd9;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navdis{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.colorWhite :hover{
+    color: white;
+}
+
+.logo{
+    background-image: url(../images/logo.png);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    height: 4rem;
+    width: 5rem;
+}
+/* Backgroud Images */
+.sec2Back{
+    background-image: url(../images/fe6.jpg);
+    height: 690px;
+    width: 100%;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.quoteBox{
+    padding-top: 8.5rem;
+    padding-bottom: 24.6rem;
+    color: white;
+    font-size: 6rem;
+    font-family: 'Dancing Script', cursive;
+   
+    
+}
+#ham{
+  background-image: url(../images/download.svg);
+  background-repeat: no-repeat;
+}
+
+#navbarNavDropdown{
+  z-index: 5;
+}
+
+
+/* Section 2 */
+.Feature{
+    padding: 3% 8%;
+}
+
+
+.Feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.Feature-box h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+
+}
+
+.Feature-box p{
+    color: gray;
+    font-size: 18px;
+}
+
+.icon{
+    margin-bottom: 1.5rem;
+    color: #98d2d9;
+}
+.icon:hover{
+    color: #9D5353;
+}
+
+
+
+  .slide-right  {
+    animation: 2.5s slide-right 1s forwards;
+      transform:translateX(-100%);
+  }
+
+
+  @keyframes slide-right {
+    to {
+      transform:translateX(0);
+    }
+  }
+
+
+
+
+
+
+
+#test{
+    background-color:  #b4e6fa;
+}
+.small_fea{
+    height: 30rem;
+    background-size:     cover;                  
+    background-repeat:   no-repeat;
+    background-position: center center;
+    transform: scale(0.6,0.9);
+    border-radius: 20px;
+}
+
+#Fea_heading{
+    text-align: center;
+    justify-content: center;
+    padding-top: 20x;
+}
+
+#Fea_heading h1{
+    padding-top: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+}
+
+
+
+
+/* footer Section */
+.footer-dark {
+    padding: 50px 0;
+    color: #f0f9ff;
+    background-color: #282d32;
+  }
+  
+ 
+  @media (min-width:1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      max-width: 1320px;
+    }
+  }
+  
+ 
+  
+  .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+  }
+  
+  @media (min-width:768px) {
+    .col-md-3 {
+      flex: 0 0 auto;
+      width: 25%;
+    }
+  }
+                  
+  .footer-dark h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .footer-dark ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity: 0.8;
+  }
+  
+  .footer-dark ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
+  }
+  
+  a:hover {
+    color: #0a58ca;
+  }
+  
+  @media (min-width:768px) {
+    .col-md-3 {
+      flex: 0 0 auto;
+      width: 25%;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom: 36px;
+  }
+  
+  @media (min-width:768px) {
+    .col-md-6 {
+      flex: 0 0 auto;
+      width: 50%;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity: 0.6;
+    margin-bottom: 0;
+  }
+  
+  .footer-dark .item.social {
+    text-align: center;
+  }
+  
+  .col {
+    flex: 1 0 0%;
+  }
+  
+  .footer-dark .copyright {
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity: 0.9;
+  }
+  
+  .footer-dark .item.social > a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.4);
+    margin: 0 8px;
+    color: #fff;
+    opacity: 0.75;
+  }
+  
+  a:hover {
+    color: #0a58ca;
+  }
+  
+  

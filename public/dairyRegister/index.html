@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Register Form Manager</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+  <body>
+    <div id="signUP">
+      <form class="signup-form">
+
+        <!-- form header -->
+        <div class="form-header">
+          <h1>Create Manager's Account</h1>
+        </div>
+
+        <!-- form body -->
+        <div class="form-body">
+          <!--  *********************************Personal Details************************************* -->
+
+            <h2>Personal Details</h2>
+            <!-- Firstname and Lastname -->
+            <div class="horizontal-group">
+              <div class="form-group form-icon ">
+                <label for="firstname" class="label-title">First name *</label>
+                <input type="text" id="firstname" class="form-input" placeholder="enter your first name"
+                  name="firstname" />
+                  <i class="fa-solid fa-circle-check" id="circleCheck"></i>
+                  <i class="fa-solid fa-circle-exclamation"></i>
+                  <small>Error message</small>
+              </div>
+              <div class="form-group form-icon ">
+                <label for="lastname" class="label-title">Last Name*</label>
+                <input type="text" id="lastname" class="form-input" placeholder="enter your last name"
+                  name="firstname" />
+                  <i class="fa-solid fa-circle-check" id="circleCheck"></i>
+                  <i class="fa-solid fa-circle-exclamation"></i>
+                  <small>Error message</small>
+              </div>
+            </div>
+
+          <div class="horizontal-group">
+            <!-- AAHDAR Details -->
+            <div class="form-group form-icon">
+              <label for="Aadhar_no" class="label-title">Aadhar no.*</label>
+              <input type="text" name="Aadhar_no" id="adharno" class="form-input" placeholder="enter your Aadhar no."
+                min="12" max="12" title="Addhar Card">
+                <i class="fa-solid fa-circle-check" id="circleCheck"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error message</small>
+            </div>
+          </div>
+
+            <!-- Gender and Contact No. -->
+            <div class="horizontal-group">
+              <div class="form-group form-icon ">
+                <label class="label-title">Gender:</label>
+                  <div class="input-group" id="gender">
+                    <input type="radio" name="gender" value="male" id="male"> Male</label>
+                    <input type="radio" name="gender" value="female" id="female"> Female</label>
+                    <i class="fa-solid fa-circle-check" id="circleCheck"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small>Error message</small>
+                  </div>
+                </div>
+              <div class="form-group form-icon ">
+                <label for="experience" class="label-title">Age</label>
+                <input type="number" id="age" min="18" max="80" value="18" class="form-input" name="age">
+                <i class="fa-solid fa-circle-check" id="circleCheck"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error message</small>
+              </div>
+            </div>
+
+            <!-- contact no -->
+            <div class="horizontal-group">
+              <div class="form-group  form-icon ">
+                <label class="label-title">Contact No.*</label>
+                <input type="tel" id="phone" class="form-input" name="phone" placeholder="enter your phone no.">
+                <i class="fa-solid fa-circle-check" id="circleCheck"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error message</small>
+              </div>
+              <div class="form-group form-icon ">
+                <label class="label-title"> Alternate Contact No.</label>
+                <div>
+                  <input type="tel" id="phone2" class="form-input" name="phone2" placeholder="enter Alternate phone no."
+                    min="10" max="10">
+                </div>
+              </div>
+
+            </div>
+         
+          <!--  *********************************Dairy Details************************************* -->
+          <div class="form-group">
+            <h2>Dairy Details</h2>
+
+            <div class="form-group form-icon ">
+              <label for="firstname" class="label-title">Dairy Name *</label>
+              <input type="text" id="dairyname" class="form-input" placeholder="Enter Dairy Name" name="dairyName" />
+              <i class="fa-solid fa-circle-check" id="circleCheck"></i>
+              <i class="fa-solid fa-circle-exclamation"></i>
+              <small>Error message</small>
+            </div>
+            <div class="form-group form-icon">
+              <label for="location" class="label-title">Dairy Location*</label>
+              <input type="text" id="location" class="form-input" placeholder="Enter Dairy Location"
+                name="dairyAddress">
+                <i class="fa-solid fa-circle-check" id="circleCheck"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error message</small>
+            </div>
+            <div class="horizontal-group">
+              <div class="form-group  form-icon ">
+                <label for="password" class="label-title">Tal. *</label>
+                <input type="text" id="Tal" class="form-input" placeholder="enter Taluka" name="dairyTaluka">
+                <i class="fa-solid fa-circle-check" id="circleCheck"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error message</small>
+              </div>
+              <div class="form-group form-icon ">
+                <label for=" " class="label-title">District *</label>
+                <input type="text" class="form-input" id="District" placeholder="enter District" name="dairyDistrict">
+                <i class="fa-solid fa-circle-check" id="circleCheck"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error message</small>
+              </div>
+            </div>
+
+          </div>
+
+
+          <!-- *********************Account Details************************* -->
+          <div>
+            <h2>Account Details</h2>
+            <!-- Email -->
+            <div class="form-group form-icon ">
+              <label for="email" class="label-title">Email*</label>
+              <input id="email" class="form-input" placeholder="enter your email" name="dairyEmail">
+              <i class="fa-solid fa-circle-check" id="circleCheck"></i>
+              <i class="fa-solid fa-circle-exclamation"></i>
+              <small>Error message</small>
+            </div>
+
+            <!-- Passwrod and confirm password -->
+            <div class="horizontal-group">
+              <div class="form-group form-icon ">
+                <label for="password" class="label-title">Password *</label>
+                <input type="password" id="password" class="form-input" placeholder="enter password" name="dairyPass">
+                <i class="fa-solid fa-circle-check" id="circleCheck"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error message</small>
+              </div>
+              <div class="form-group form-icon ">
+                <label for=" " class="label-title">Confirm Password *</label>
+                <input type="password" class="form-input" id="confirm-password" placeholder="enter password again">
+                <i class="fa-solid fa-circle-check" id="circleCheck"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error message</small>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- form-footer -->
+          <div class="form-footer">
+            <span>* required</span>
+            <button type="submit" class="btn">Create</button>
+          </div>
+
+      </form>
+
+    </div>
+
+    <!-- Script for range input label -->
+
+
+    <!-- ! See code changed here -->
+    <!-- <script type="module" src="./assets/js/forms/dairyDetail.js"></script> -->
+    <!-- <script  type="module" src="./assets/js/forms/trail.js"></script> -->
+    <script type="module" src="./assets/js/index.js"></script>
+
+  </body>
+
+</html>

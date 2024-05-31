@@ -1,0 +1,16 @@
+#container-data{
+    background-color: #F0F0F0;
+    box-shadow: 0px 11px 14px;
+    padding: 1rem;
+}
+#payBtn{
+    background-color: #ea3838;
+    width: 6rem;
+    border-radius:0.7em;
+}
+.btns{
+    /* float: right; */
+    margin-top: 8px;
+    width: 6rem;
+    border-radius:0.7em;
+}
